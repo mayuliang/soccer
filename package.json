@@ -1,0 +1,21 @@
+{
+  "name": "soccer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "phantom": "phantomjs example.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "jsdom": "^12.0.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "nodemailer": "^2.3.2",
+    "nodemailer-smtp-transport": "^2.4.2",
+    "async": "^2.6.1"
+  }
+}
